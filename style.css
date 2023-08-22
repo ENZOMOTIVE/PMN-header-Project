@@ -1,6 +1,8 @@
 *{
-    margin: 0;
+    margin: 10 px;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 *{
@@ -62,17 +64,19 @@ height: 90%;
 /* logo side bottom*/
 .container2{
     padding-top: 11px;
-    display: flex; 
+    display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
+    margin-top: 22px;
+    font-size: 19px;
 }
 
 
 /* sensex */
 .sensex{
+    margin-top: ;
     display: flex;
-    padding-left: ;
-    padding-right: ;
+   justify-content: center;
     justify-content: space-between;
 }
 .sensex a{
@@ -81,7 +85,7 @@ height: 90%;
 }
 .sensex li{
     display: flex;
-    margin-left: 8px;
+    margin-left: 10px;
     
 }
 
@@ -93,7 +97,7 @@ height: 90%;
 .nifty{
     display: flex;
     padding-left: 80px;
-    padding-right: ;
+   
     justify-content: space-between;
 }
 .nifty a{
@@ -114,7 +118,7 @@ height: 90%;
 .nasdaq{
     display: flex;
     padding-left: 80px;
-    padding-right: ;
+    
     justify-content: space-between;
 }
 .nasdaq a{
@@ -135,7 +139,7 @@ height: 90%;
 .dollar{
     display: flex;
     padding-left: 80px;
-    padding-right: ;
+   
     justify-content: space-between;
 }
 .dollar a{
@@ -151,14 +155,43 @@ height: 90%;
 .dollar ul{
     margin-left: 8px;
 }
+/* Buttons*/
 
 .log-btn{
-    margin-left: 589px;
+    margin-left: 495px;
+    padding: 11px 33px;
+    border-radius: 8px;
+    background-color: #136cb4;
+   transition-duration: 0.4s;
+}
+.log-btn:hover{
+    color:#136cb4 ;
+    box-shadow: 0 5px 15px #0ac031;
 }
 .sign-btn{
-    margin-left: 10px;
+    margin-left: 56px;
+    padding: 11px 33px;
+    border-radius: 8px;
 }
+
+/*nav*/
+.nav
+{
+
+    background-color: #0f4878;
+    display: block ;
+    padding: 18px 27px;
     
+}
+.nav li {
+    display: inline ;
+}
+.nav li a{
+    margin-right: 57px;
+    margin-left: 13px;
+    font-size: 23px;
+    color: white;
+}
 
 
 
