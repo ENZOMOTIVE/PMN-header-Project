@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+ul  {
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;    
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.container{
+    margin-right: 0;
+    display: flex;
+   
+}
+
+/* Logo img*/
+.left-logo
+{
+    width: 221px;
+    height: 180px;
+    display:cover;
+}
+
+.left-logo img
+{
+height: 75%;
+width: 46%;
+width: 97%;
+height: 90%;
+
+}
+
+/* logo side text  */
+.right-top{
+    display: cover;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 271px;
+    padding-top: 27px;
+   
+    font-size: 27px;
+    
+}
+.right-top a{
+    color: black;
+}
+
+
+/* logo side bottom*/
+.container2{
+    padding-top: 11px;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+/* sensex */
+.sensex{
+    display: flex;
+    padding-left: ;
+    padding-right: ;
+    justify-content: space-between;
+}
+.sensex a{
+    
+  margin-right: 20px;
+}
+.sensex li{
+    display: flex;
+    margin-left: 8px;
+    
+}
+
+.sensex ul{
+    margin-left: 8px;
+}
+
+/*nifty*/
+.nifty{
+    display: flex;
+    padding-left: 80px;
+    padding-right: ;
+    justify-content: space-between;
+}
+.nifty a{
+    
+  margin-right: 20px;
+}
+.nifty li{
+    display: flex;
+    margin-left: 8px;
+    
+}
+
+.nifty ul{
+    margin-left: 8px;
+}
+/* nasdaq*/
+
+.nasdaq{
+    display: flex;
+    padding-left: 80px;
+    padding-right: ;
+    justify-content: space-between;
+}
+.nasdaq a{
+    
+  margin-right: 20px;
+}
+.nasdaq li{
+    display: flex;
+    margin-left: 8px;
+    
+}
+
+.nasdaq ul{
+    margin-left: 8px;
+}
+
+/*dollar*/
+.dollar{
+    display: flex;
+    padding-left: 80px;
+    padding-right: ;
+    justify-content: space-between;
+}
+.dollar a{
+    
+  margin-right: 20px;
+}
+.dollar li{
+    display: flex;
+    margin-left: 8px;
+    
+}
+
+.dollar ul{
+    margin-left: 8px;
+}
+
+.log-btn{
+    margin-left: 589px;
+}
+.sign-btn{
+    margin-left: 10px;
+}
+    
+
+
+
+
