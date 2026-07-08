@@ -1,10 +1,20 @@
 # PMN Header Project
 
-> PMN Header Project is a static web project built with HTML, CSS, and JavaScript.
+> PMN Header Project is an internship task focused on building and refining the PMN website header.
 
 ## The Story
 
 PMN Header Project starts with a simple goal: create a browser experience that is simple to open, inspect, and iterate on. The repository is intentionally compact today, so the README focuses on turning the current shape into a clear starting point for the next round of work.
+
+## Detailed Description
+
+PMN Header Project is an internship task focused on building and refining the PMN website header. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+
+The project is meant to be inspected in the browser. Keep the interaction, styling decisions, and any manual test steps close to the README so visual changes stay intentional.
+
+At the top level, the most important entry points are `index.html`, `logo.jpg`, and `style.css`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+
+The visible stack currently points to `HTML` and `CSS`. Keep this list honest as the project changes so the README remains useful as a first technical map.
 
 ## What It Includes
 
