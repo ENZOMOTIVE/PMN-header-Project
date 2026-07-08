@@ -1,0 +1,252 @@
+*{
+    margin: 10 px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+ul  {
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;    
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.container{
+    margin-right: 0;
+    display: flex;
+   
+}
+
+/* Logo img*/
+.left-logo
+{
+    width: 126px;
+    height: 153px;
+}
+
+.left-logo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* logo side text  */
+.right-top{
+    width: fit-content;
+    height: fit-content;
+    padding-top: 38px;
+    font-size: 21px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+.right-top a{
+    color: black;
+}
+
+
+/* logo side bottom*/
+.container2{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 10px;
+    font-size: 19px;
+    margin-left: 12px;
+}
+
+
+/* sensex */
+.sensex{
+    margin-top: ;
+    display: flex;
+   justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.sensex a{
+    
+  margin-right: 20px;
+}
+.sensex li{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.sensex ul{
+    margin-left: 8px;
+}
+
+/*nifty*/
+.nifty{
+    display: flex;
+    padding-left: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nifty a{
+    
+  margin-right: 20px;
+}
+.nifty li{
+    display: flex;
+    margin-left: 8px;
+    align-items: center;
+}
+
+.nifty ul{
+    margin-left: 8px;
+}
+/* nasdaq*/
+
+.nasdaq{
+    display: flex;
+    padding-left: 80px;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.nasdaq a{
+    
+  margin-right: 20px;
+}
+.nasdaq li{
+    display: flex;
+    margin-left: 8px;
+    align-items: center;
+}
+
+.nasdaq ul{
+    margin-left: 8px;
+}
+
+/*dollar*/
+.dollar{
+    display: flex;
+    padding-left: 80px;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.dollar a{
+    
+  margin-right: 20px;
+}
+.dollar li{
+    display: flex;
+    margin-left: 8px;
+    align-items: center;
+}
+
+.dollar ul{
+    margin-left: 8px;
+}
+/* Buttons*/
+
+.log-btn{
+    margin-left: 342px;
+    padding: 11px 33px;
+    border-radius: 8px;
+    transition-duration: 0.7s;
+    border: 3px solid #0f4878;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+.log-btn li{
+    display: inline;
+    margin-left:7px;
+}
+
+.log-btn:hover{
+    color:white ;
+   /* box-shadow: 0 5px 15px #0f4878;*/
+   background-color: #0f4878;
+}
+.sign-btn{
+    margin-left: 56px;
+    padding: 11px 33px;
+    border-radius: 8px;
+    transition-duration: 0.7s;
+  
+    background-color:#0f4878;
+   color: white;
+   border: 3px solid #0f4878;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sign-btn li{
+    display: inline;
+    margin-left:7px;
+}
+.sign-btn:hover{
+    background-color: white;
+    color: #0f4878;
+}
+
+/*nav*/
+
+.nav
+{
+    padding: 9px;
+    background-color: #0f4878;
+    display: block ;
+  
+    
+}
+
+.nav li {
+    display: inline ;
+}
+.nav li a{
+    margin-right: 57px;
+    margin-left: 13px;
+    font-size: 19px;
+    color: white;
+
+}
+
+
+
+/*for mobile view*/
+@media screen and (max-width: 800px)
+{
+    .right-top{
+        width: fit-content;
+        height: fit-content;
+        padding-top: 38px;
+        font-size: 4vh;
+        margin-left: 12px;
+        margin-top: 3px;
+    }
+    .container{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-top: 10px;
+        font-size: 19px;
+        margin-left: -5px;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container2
+}
+
+
